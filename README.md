@@ -16,3 +16,7 @@ This project demonstrates a security monitoring setup using **Splunk Enterprise*
 
 ## 📈 Search Query Example
 index=main "authentication failure" | stats count by user
+
+## 📊 Visualization
+![Authentication Failed Events](authentication_failed.png)
+![Stats by User](stats%20count%20by%20user.png)
